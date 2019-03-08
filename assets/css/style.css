@@ -1,27 +1,87 @@
+html, body {
+height: 100%;
+margin: 0;
+
+}
+
+.content {
+min-height: 100%;
+max-width: 770px;
+min-width:360px;
+margin:auto;
+}
+
+.content-inside {
+padding: 20px;
+padding-bottom: 50px;
+}
+
 body {
 	background:lightblue;
 }
 
+.miners {
+	width: 25px;
+	height: 25px;
+}
 h1 {
 	text-align: center;
 }
-div {
-	background: lightgray;
-	border:1px solid black;
+#rules {
+	border: 1px solid rgb(199, 195, 195);
+	color:  rgb(240, 238, 238);
+	padding:10px
+
 }
 button {
 	background:white;
-}
-.container {
-	margin:auto;
 	padding:auto;
 }
+.container {
+}
 img{
-	width:75px;
-	height: 75px;
+	width:60px;
+	height:60px;
+}
+button{
+	margin:0 auto;
 }
 
-footer {
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900|Montez);
+
+$buttonBackground: #2c3e50;
+$buttonColor: rgba(255,255,255,1);
+
+.sparkley {
+
+  background: lighten( $buttonBackground , 10% );
+  color: $buttonColor;
+  border: none;
+
+  padding: 16px 36px;
+  font-weight: normal;
+  
+  border-radius: 3px;
+  transition: all 0.25s ease;
+  
+  box-shadow: 0 38px 32px -23px black;
+  margin: 0 1em 1em;
+  
+  &:hover {
+   
+    background: $buttonBackground;
+    color: transparentize( $buttonColor,0.8 );
+    
+  }
+  
+}
+
+.footer {
 	background: gray;
 	border-top:2px solid black;
+	height: 50px;
+	margin-top: -50px;
+	text-align: center;
 }

@@ -13,32 +13,34 @@
 </head>
 
 <body>
-    <h1><img src="assets/images/miner.jpg" alt="Image of a Miner">Gem Miner!<img src="assets/images/miner.jpg" alt="Image of a Miner"></h1>
-    <div>
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    <div class="content">
+        <div class="content-inside">
+            <h1><img  class="miners" src="assets/images/miner.jpg" alt="Image of a Miner">Gem Miner!<img class="miners"  src="assets/images/miner.jpg" alt="Image of a Miner"></h1>
+            <div id="rules">
+                <h4>The rules</h4>
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+            <div >
+                <h3 id="goal">Goal number: </h3>
+            </div>
+            <div>
+                <p id="wins">wins: </p>
+                <p id="loses">loses: </p>
+                <p>Your current total is:</p>
+                <div><h3 id="total">Total: </h3></div>
+            <div class="container sparkley last">
+                <button id="red"><img src="assets/images/red.png" alt="red gem"></button>
+                <button id="blue"><img class="img" src="assets/images/blue.png" alt="blue"></button>
+                <button id="yellow"><img src="assets/images/yellow.jpeg" alt="yellow gem"></button>
+                <button id="green"><img src="assets/images/green.jpeg" alt="green gem"></button>
+            </div>
+        </div>
     </div>
-    <div id="goal">
-        <h3>goal number: </h3>
-    </div>
-    <div>
-        <p id="wins">wins: </p>
-        <p id="loses">loses: </p>
-        <p>Your current total is:</p>
-        <div id="total">Total: </div>
-    <div class="container">
-        <button id="red"><img src="assets/images/red.png" alt="red gem"></button>
-        <button id="blue"><img src="assets/images/blue.png" alt="blue"></button>
-        <button id="yellow"><img src="assets/images/yellow.jpeg" alt="yellow gem"></button>
-        <button id="green"><img src="assets/images/green.jpeg" alt="green gem"></button>
-    </div>
-
- 
-
-    <footer>
+    <footer class="footer">
         Created by Eric Price
     </footer>
 

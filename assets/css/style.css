@@ -7,6 +7,7 @@ margin: 0;
 .content {
 min-height: 100%;
 margin:auto;
+max-width: 760px;
 }
 
 .content-inside {
@@ -93,4 +94,5 @@ $buttonColor: rgba(255,255,255,1);
 	text-align: center;
 	color:white;
 	padding-top: 13px;
+	max-width: 760px;
 }
